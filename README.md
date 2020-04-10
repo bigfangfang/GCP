@@ -12,7 +12,7 @@
 
 5. 安装V2Ray
     1）一键安装：
-bash <(curl -s -L https://git.io/v2ray.sh)
+bash <(curl -s -L https://233v2.com/v2ray.sh)
 
 要求：Ubuntu 16+ / Debian 8+ / CentOS 7+ 系统
 推荐使用 Debian 9 系统，脚本会自动启用 BBR 优化。
