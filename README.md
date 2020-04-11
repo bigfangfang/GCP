@@ -1,4 +1,6 @@
 # GCP
+注册谷歌云 https://console.cloud.google.com/freetrial?referralId=70215fed64754b8b91729319a16ef599 快捷通道可能有额外奉送金额哦大家可以试试！
+
 1. GCP创建VM实例
     
 
