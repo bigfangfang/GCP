@@ -30,8 +30,10 @@ centos 系统安装 Curl 方法: yum update -y && yum install curl -y
 安装完成后，输入 v2ray 即可管理 V2Ray
 
 6. 配置BBR加速，配置完成后重启机器
-wget -N --no-check-certificate "https://raw.githubusercontent.com/chiakge/Linux-NetSpeed/master/tcp.sh"
-chmod +x tcp.sh
-./tcp.sh
 
-安装后，执行lsmod | grep bbr，显示有bbrplus则开启成功
+
+wget --no-check-certificate -O tcp.sh https://github.com/cx9208/Linux-NetSpeed/raw/master/tcp.sh && chmod +x tcp.sh && ./tcp.sh
+
+推荐安装bbrplus加速 先看自己vps是否安装了加速内核，是否是bbrplus加速内核，不是的话请按脚本提示进行对应的内核及加速模块的卸载和安装。
+
+
